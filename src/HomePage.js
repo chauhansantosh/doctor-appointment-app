@@ -22,8 +22,8 @@ const HomePage = () => {
  const apiHost = process.env.REACT_APP_API_URL;
  const apiKey = process.env.REACT_APP_API_KEY;
  const myVapidKey = process.env.REACT_APP_VAPIDKEY
- 
-  const handleLogin = () => {
+
+   const handleLogin = () => {
     // Make a REST call to your Golang backend service for authentication
     fetch(`${apiHost}/login`, {
       method: 'POST',
